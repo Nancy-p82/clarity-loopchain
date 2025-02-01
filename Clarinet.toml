@@ -4,6 +4,10 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.donation-manager]
+path = "contracts/donation-manager.clar"
+depends_on = []
+
 [contracts.nonprofit-registry]
 path = "contracts/nonprofit-registry.clar"
 depends_on = []
